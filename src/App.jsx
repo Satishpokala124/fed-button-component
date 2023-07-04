@@ -63,6 +63,22 @@ function App() {
           </ButtonVariant>
         </div>
       </div>
+      <footer className='flex justify-center align-center pt-16 pb-6 font-semi text-small text-[#A9A9A9]'>
+        created by
+        <a
+          className='transition-all hover:text-black hover:underline mx-1'
+          href='https://devchallenges.io/portfolio/Satishpokala124'
+        >
+          Satishpokala124
+        </a>
+        -
+        <a
+          className='transition-all hover:text-black hover:underline mx-1'
+          href='https://devchallenges.io/'
+        >
+          devChallenges.io
+        </a>
+      </footer>
     </div>
   );
 }
